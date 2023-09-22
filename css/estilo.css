@@ -197,7 +197,7 @@ h2 span {
   }
   .miBanner p{
 
-    font-size:  2rem;
+    font-size:  1.5rem;
 
   }
 
@@ -212,7 +212,7 @@ h2 span {
 }
 
 
-@media (max-width:725px){
+@media (max-width:768px){
   
   .miFondo{
     height: auto;
@@ -227,7 +227,7 @@ h2 span {
 
   .miBanner h1{
 
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .contenedorServicios{
