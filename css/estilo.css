@@ -115,19 +115,12 @@ h3 {
   color: #0e0e0e;
 }
 
-::-webkit-input-placeholder {
-  color: #a8a8a8;
-}
-
+::-webkit-input-placeholder,
 ::-webkit-textarea-placeholder {
   color: #a8a8a8;
 }
 
-.formulario input:focus {
-  outline: 0;
-  border: 1px solid rgba(0, 70, 192, 0.853);
-}
-
+.formulario input:focus,
 .formulario textarea:focus {
   outline: 0;
   border: 1px solid rgba(0, 70, 192, 0.853);
@@ -164,6 +157,11 @@ h3 {
   border-radius: 10px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #444444;
@@ -180,6 +178,16 @@ h2 span {
 .imgCarousel {
   height: 400px;
   object-fit: cover;
+}
+
+
+@media (max-width:1023px) {
+    
+  .miFondo{
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

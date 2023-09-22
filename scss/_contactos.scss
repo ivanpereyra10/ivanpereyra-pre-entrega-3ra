@@ -9,7 +9,6 @@
     padding-left: 30px;
 }
 
-
 input {
     background-color: #fbfbfb;
     width: 408px;
@@ -22,7 +21,6 @@ input {
     padding-left: 10px;
     margin-bottom: 20px;
 }
-
 
 textarea {
     background-color: #fbfbfb;
@@ -37,7 +35,6 @@ textarea {
     margin-bottom: 20px;
     padding-top: 15px;
 }
-
 
 .buttonEnviar {
     height: 45px;
@@ -54,18 +51,14 @@ textarea {
     cursor: pointer;
 }
 
-
 button p {
     color: #fff;
 }
-
 
 .aviso {
     font-size: 13px;
     color: #0e0e0e;
 }
-
-
 
 h3 {
     font-size: 16px;
@@ -73,26 +66,16 @@ h3 {
     color: #0e0e0e;
 }
 
-
-
-
-::-webkit-input-placeholder {
-    color: #a8a8a8;
-}
-
-
+::-webkit-input-placeholder,
 ::-webkit-textarea-placeholder {
     color: #a8a8a8;
 }
 
+.formulario {
 
-.formulario input:focus {
-    outline: 0;
-    border: 1px solid rgba(0, 70, 192, 0.853);
-}
-
-
-.formulario textarea:focus {
-    outline: 0;
-    border: 1px solid rgba(0, 70, 192, 0.853);
+    input:focus,
+    textarea:focus {
+        outline: 0;
+        border: 1px solid rgba(0, 70, 192, 0.853);
+    }
 }
