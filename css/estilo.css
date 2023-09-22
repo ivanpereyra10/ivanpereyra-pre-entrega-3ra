@@ -147,6 +147,7 @@ h3 {
 }
 
 .button {
+  text-align: center;
   display: inline-block;
   background-color: rgba(0, 91, 249, 0.853);
   color: #fafafa;
@@ -181,13 +182,59 @@ h2 span {
 }
 
 
-@media (max-width:1023px) {
-    
+.buttonServicios{
+  text-align: center;
+}
+
+
+
+@media (max-width:1023px){
+  
   .miFondo{
-      height: auto;
-      flex-direction: column;
-      text-align: center;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .miBanner p{
+
+    font-size:  2rem;
+
+  }
+
+  .miBanner h1{
+
+    font-size: 2.5rem;
+  }
+
+  .contenedorServicios{
+    grid-template-columns: 1fr 1fr;
   }
 }
+
+
+@media (max-width:725px){
+  
+  .miFondo{
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .miBanner p{
+
+    font-size:  1rem;
+
+  }
+
+  .miBanner h1{
+
+    font-size: 2rem;
+  }
+
+  .contenedorServicios{
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+}
+
 
 /*# sourceMappingURL=estilo.css.map */
